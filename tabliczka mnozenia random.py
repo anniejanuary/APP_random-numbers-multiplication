@@ -3,13 +3,13 @@ import random
 a = random.randint(1,10) 
 b = random.randint(1,10)
 
-print("Podaj wynik iloczynu liczb", a , "i", b)
+print("The product of multiplying", a , "and", b "is: ")
 multipl=int(input())
 
 if a*b == multipl_input:
-    print("Wynik prawidłowy")
+    print("Correct")
 
 else:
-    print("Wynik nieprawidłowy")
+    print("Incorrect")
     
 
